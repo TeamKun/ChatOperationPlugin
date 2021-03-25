@@ -1,0 +1,10 @@
+name: Chatoperationplugin
+version: ${project.version}
+main: net.kunmc.lab.chatoperationplugin.Chatoperationplugin
+api-version: 1.15
+
+commands:
+  cho:
+    description: Chatoperationplugin command
+    usage: /cho <off|on|target|detail>
+    permission: op
